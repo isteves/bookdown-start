@@ -1,5 +1,6 @@
 [
-["index.html", "Baby’s first bookdown Preface", " Baby’s first bookdown Irene 2018-03-05 Preface This is the very first part of the book. "],
+["index.html", "Baby’s first bookdown Preface", " Baby’s first bookdown Irene 2018-03-05 Preface This is the very first part of the book. Changed here. "],
 ["introduction.html", "Chapter 1 Introduction", " Chapter 1 Introduction This is the first real chapter. "],
-["diving-in.html", "Chapter 2 Diving In", " Chapter 2 Diving In Now let’s talk details. o o o "]
+["diving-in.html", "Chapter 2 Diving In", " Chapter 2 Diving In Now let’s talk details. o o o "],
+["technical-details.html", "Chapter 3 Technical Details", " Chapter 3 Technical Details Now I’ll teach you some crazy math, but I need to work it out first… "]
 ]
