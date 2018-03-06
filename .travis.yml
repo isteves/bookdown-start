@@ -15,5 +15,4 @@ deploy:
   github_token: $GITHUB_TOKEN #set in travis-ci dashboard
   on:
     branch: master
-  local_dir: public
-  fqdn: isteves.github.io/bookdown-start
+  local_dir: docs
