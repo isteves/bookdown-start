@@ -1,5 +1,9 @@
 Package: placeholder
 Title: Does not matter.
+Author: Irene
+Maintainer: Irene
+Description: This is a description
 Version: 0.0.1
 Imports: bookdown, xfun
 Remotes: rstudio/bookdown
+License: GPL-2
