@@ -1,0 +1,9 @@
+language: r
+cache: packages
+
+script:
+  - Rscript -e 'xfun::in_dir("dir1", bookdown::render_book("index.Rmd"))'
+  - Rscript -e 'file.copy(from = "dir1/dir1", to = "docs", recursive = TRUE)'
+  - Rscript -e 'xfun::in_dir("dir2", bookdown::render_book("index.Rmd"))'
+  - Rscript -e 'file.copy(from = "dir2/dir2", to = "docs", recursive = TRUE)'
+  
