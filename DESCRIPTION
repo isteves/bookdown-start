@@ -4,7 +4,7 @@ Author: Irene
 Maintainer: Joe Developer <Joe.Developer@some.domain.net>
 Description: This is a description. Hi.
 Version: 0.0.1
-Imports: bookdown, xfun
+Imports: bookdown, xfun, rmarkdown
 Remotes: rstudio/bookdown
 License: GPL-2
 RoxygenNote: 6.0.1
