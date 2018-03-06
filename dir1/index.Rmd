@@ -1,5 +1,5 @@
 --- 
-title: "Baby's first bookdown"
+title: "Makin' a bookdown"
 author: "Irene"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
