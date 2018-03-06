@@ -1,7 +1,7 @@
 Package: placeholder
 Title: Does not matter.
 Author: Irene
-Maintainer: Irene
+Maintainer: Joe Developer <Joe.Developer@some.domain.net>
 Description: This is a description
 Version: 0.0.1
 Imports: bookdown, xfun
