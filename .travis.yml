@@ -5,7 +5,15 @@ pandoc_version: 2.1.1
 sudo: false
 cache: packages
 script:
-  - Rscript -e 'xfun::in_dir("dir1", bookdown::render_book("index.Rmd"))'
+  - Rscript -e 'xfun::in_dir("dir1", bookdown::render_book("index.Rmd", "bookdown::gitbook"))'
   - cp -vr dir1/dir1 docs
-  - Rscript -e 'xfun::in_dir("dir2", bookdown::render_book("index.Rmd"))'
-  - Rscript -e 'file.copy(from = "dir2/dir2", to = "docs", recursive = TRUE)'
+  - Rscript -e 'xfun::in_dir("dir2", bookdown::render_book("index.Rmd", "bookdown::gitbook"))'
+  - cp -vr dir2/dir2 docs
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN #set in travis-ci dashboard
+  on:
+    branch: master
+  local_dir: public
+  fqdn: isteves.github.io/bookdown-start
