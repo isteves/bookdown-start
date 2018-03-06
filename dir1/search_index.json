@@ -1,0 +1,6 @@
+[
+["index.html", "Makin’ a bookdown Preface", " Makin’ a bookdown Irene 2018-03-06 Preface Dir1 "],
+["introduction.html", "Chapter 1 Introduction", " Chapter 1 Introduction testing travis updates Let’s add something else here df &lt;- data.frame(x = rnorm(20), y = rnorm(20)) Now to plot it: plot(df) "],
+["diving-in.html", "Chapter 2 Diving In", " Chapter 2 Diving In Now let’s talk details. o o o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o "],
+["technical-details.html", "Chapter 3 Technical Details", " Chapter 3 Technical Details Now I’ll teach you some crazy math, but I need to work it out first… "]
+]
