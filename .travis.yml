@@ -7,7 +7,6 @@ cache: packages
 script:
   - Rscript -e 'xfun::in_dir("dir1", bookdown::render_book("index.Rmd", "bookdown::gitbook"))'
   - Rscript -e 'xfun::in_dir("dir2", bookdown::render_book("index.Rmd", "bookdown::gitbook"))'
-after_script:
   - cp -vr dir1/dir1 docs
 deploy:
   provider: pages
